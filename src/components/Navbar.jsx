@@ -14,13 +14,6 @@ function Navbar() {
                     <li>
                         <NavLink to="/talents">Les Talents</NavLink>
                     </li>
-                    <li>
-                        <NavLink to="/planning">Planning</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/plan">Le Plan</NavLink>
-                    </li>
-                    
                 </ul>
                 <button aria-label='Open Nav' className='hamburger' onClick={handleShowNavbar}>
                     <ion-icon name="menu-outline"></ion-icon>
@@ -29,12 +22,6 @@ function Navbar() {
                     <ul className='list_nav_mobile'>
                         <li>
                             <NavLink to="/talents" onClick={handleShowNavbar}>Les Talents</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/planning" onClick={handleShowNavbar}>Planning</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/plan" onClick={handleShowNavbar}>Le Plan</NavLink>
                         </li>
                     </ul>
                     <button aria-label="Close nav" className='close_outline' onClick={handleShowNavbar}>
