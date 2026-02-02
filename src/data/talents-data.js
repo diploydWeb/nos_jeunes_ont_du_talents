@@ -53,6 +53,14 @@ const talentData = [
         avatar: "talent_Lucie_Rots_2.jpg",
         titre: "Styliste / Modéliste",
         bio: "Je m'appelle Lucie Rots, j'ai 23 ans et je suis styliste/ modéliste. Depuis toute petite j'ai baigné dans l'univers de la mode car mon père tenait un magasin de vêtements. J'ai alors toujours voulu comprendre comment sont construits les vêtements. Après un Bac Général, je me suis dirigée vers des études de mode. J'ai commencé par un BTS Métiers de la Mode et du Vêtement que j'ai fais à Tourcoing. Puis j'ai poursuivi avec un Bachelor styliste/ modéliste que j'ai réalisé à Bruxelles. Durant cet événement je vais faire plusieurs petits quizz sur la mode et réaliser une robe qui sera présenter lors du défilé en fin de journée avec mes autres créations.",
+        social: {
+            insta: {
+                pseudo: "@lucie_rots",
+                link: "https://www.instagram.com/lucie_rots"
+            },
+
+        }
+    
     },
     {
         id: 5,

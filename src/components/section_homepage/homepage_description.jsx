@@ -3,23 +3,55 @@ function Description() {
 
     return (
         
-        <section className="description-section">
+        <section id="description-section" className="description-section">
 
-            <div className="description-section__text">
+            <h2>Présentation du projet</h2>
 
-                <h1>Nos jeunes ont du talents</h1>
-                <h2>"Mettre en lumière les talents sous toutes leurs formes : entreprendre, créer, s’exprimer, oser."</h2>
+            <div className="description-section__content">
 
-                <a href=""></a>
                 
+                <div className="description-section__text">
+
+                    <p>L'objectif du projet est d'offrir de la visibilité et de valoriser le travail des jeunes dans un cadre convivial et chaleureux.</p>
+
+                    <p>C’est une occasion de partager leur passion, de raconter leur histoire, de rencontrer d’autres jeunes inspirants et de briller par leur talent !</p>
+
+                    <p>Il s’agit d’une exposition vivante, animée et participative, pensée pour permettre au public de découvrir différents univers et de vivre une expérience unique.</p>
+
+                    <div className="description-section__infos">
+
+                        <p>Le <strong>11 Février</strong> à <strong>13h</strong></p>
+                        
+                        <p>Au <strong>66 rue des Chantiers de France, 59140 Dunkerque</strong>.</p>
+
+
+                    </div>
+
+
+                    <p>Organiser par La PIJ et le groupement créateurs de Entreprendre Ensemble.</p>
+                
+                
+                    <a href="#description-section">Découvrez les talents</a>
+                
+                </div>
+
+            <div className="description-section__all-partenaire"> 
+
+                <div className="description-section__one-partenaire">
+
+                    <img src="/assets/logo-ee.jpg" alt="Nos jeunes ont du talents" />
+
+                </div>
+
             </div>
 
 
-            <div className="description-section__img-div">
-
-                <img src="/assets/logo-event.png" alt="Nos jeunes ont du talents" />
-
             </div>
+            
+
+            
+
+
 
 
         </section>

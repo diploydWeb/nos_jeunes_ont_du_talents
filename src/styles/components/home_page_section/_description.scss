@@ -1,0 +1,187 @@
+.description-section{
+
+    min-height: 100vh;
+    background-color: black;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+    h2{
+
+        font-size: 40px;
+
+    }
+
+    .description-section__content{
+
+        display: grid;
+
+        grid-template-areas: "media content";
+
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+
+
+        place-items: center center;
+
+
+
+
+    }
+
+    .description-section__text{
+
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: left;
+
+        .description-section__infos{
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            background-color: rgb(175, 175, 175);
+            padding: 10px 15px;
+
+            border-radius: 20px;
+
+            color: black;
+
+        }
+
+
+
+        p{
+
+            font-size: 20px;
+
+        }
+
+        a{
+
+
+            font-size: 20px;
+            padding: 15px 20px;
+            align-self: start;
+            width: auto;
+            margin-top: 20px;
+
+            background-color: black;
+            border: 3px solid white;
+            border-radius: 30px;
+            color: white;
+            transition: all 0.3s;
+
+            &:hover{
+
+                background-color: white;
+                color: black;
+
+            }
+
+        }
+
+    }
+
+
+
+
+    .description-section__all-partenaire{
+
+        grid-area: media;
+        display: flex;
+        flex-direction: column;
+
+        .description-section__one-partenaire{
+
+            max-width: 300px;
+            overflow: hidden;
+            border-radius: 20px;
+
+            img{
+
+                width: 100%;
+                object-fit: cover;
+
+
+            }
+
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+    .description-section{
+
+        gap: 50px;
+
+            .description-section__content{
+
+                display: flex;
+                flex-direction: column;
+
+                gap: 50px;
+
+
+            }
+
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+
+    .description-section{
+
+        gap: 50px;
+        padding: 40px 0px;
+
+        h2{
+
+            font-size: 30px;
+
+        }
+
+        .description-section__content{
+
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+
+            gap: 50px;
+
+            p{
+
+                font-size: 16px;
+
+            }
+
+
+        }
+
+
+
+    }
+
+
+}
