@@ -1,0 +1,67 @@
+.header{
+
+    padding: 10px;
+    height: 150px;
+
+    width: 100%;
+    background-color: white;
+
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+
+    display: flex;
+
+    top: -150px;
+
+    //transform: translateY(-150px);
+
+    transition: all 0.3s ease-in-out;
+
+    z-index: 100;
+
+
+    &.active{
+
+    top: 0px;
+
+    }
+
+
+    .header__img-div{
+
+        height: 80%;
+        margin-left: 20px;
+
+        border-radius: 20px;
+        overflow: hidden;
+
+        img{
+
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    
+    header{
+
+        .header__img-div{
+
+            margin: auto;
+
+
+        }
+
+    }
+
+}

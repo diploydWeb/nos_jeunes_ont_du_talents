@@ -1,0 +1,25 @@
+
+// import base
+@use"./base/reset";
+@use"./base/typography";
+
+
+// import components
+@use"./components/card-talent";
+@use"./components/modal-talent";
+@use"./components/navbar";
+
+@use"./components/home_page_section/hero";
+@use"./components/home_page_section/description";
+
+// import layouts
+@use"./layouts/header";
+@use"./layouts/footer";
+
+
+// import pages
+@use"./pages/error-page";
+@use"./pages/home-page";
+@use"./pages/talents-page";
+@use"./pages/map-page";
+@use"./pages/timeline-page";

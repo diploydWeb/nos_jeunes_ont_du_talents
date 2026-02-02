@@ -1,0 +1,349 @@
+.modal-talent{
+
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    z-index: 100;
+    transition: all 0.3s;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+
+    &.active{
+
+        visibility: visible;
+
+        .modal-talent__bg{
+
+            opacity: 1;
+
+        }
+
+        .modal-talent__content{
+
+            transform: scale(1);
+
+        }
+
+    }
+
+
+    .modal-talent__bg{
+
+        opacity: 0;
+
+        transition: all 0.3s;
+
+        background-color: rgba($color: #000000, $alpha: 0.8);
+
+    }
+
+
+    .modal-talent__content{
+
+        transform: scale(0);
+        position: relative;
+
+        width: 90%;
+        height: 90%;
+        background-color: rgba($color: white, $alpha: 1);
+        border-radius: 20px;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+
+        transition: all 0.3s;
+
+    }
+
+
+    .modal-talent__first-part{
+
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center left;
+
+    }
+
+
+    .modal-talent__avatar-div{
+
+        display: flex;
+        width: 250px;
+        height: 250px;
+        border-radius: 3000px;
+        overflow: hidden;
+
+        margin: 20px;
+        
+        img{
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+    }
+
+
+
+    .modal-talent__infos{
+
+        display: flex;
+        flex-direction: column;
+
+        .modal-talent__infos-name{
+
+            font-size: 50px;
+            font-weight: 600;
+
+        }
+
+        .modal-talent__infos-title{
+
+            font-size: 35px;
+
+        }
+
+    }
+
+
+    .modal-talent__second-part{
+
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+
+    .modal-talent__bio-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    }
+
+    .modal-talent__bio{
+
+        white-space: pre-wrap;
+        line-height: 1.1;
+
+    }
+
+    .modal-talent__bio-title, .modal-talent__social-title {
+
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 30px;
+        font-weight: 600;
+
+        &::after{
+
+            content: "";
+            position: relative;
+            height: 5px;
+            width: 10%;
+            background-color: black;
+
+        }
+
+
+
+    }
+
+
+
+    .modal-talent__social-div{
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+
+    .modal-talent__social-title{
+
+        margin-bottom: 10px;
+
+    }
+
+    .modal-talent__social{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        transition: all 0.3s;
+
+        &:hover{
+
+            color: #000000;
+
+        }
+
+        ion-icon{
+
+            font-size: 25px;
+
+        }
+
+        p{
+
+            font-size: 16px;
+
+        }
+
+
+        &-qrcode{
+
+            width: 100px;
+
+            img{
+
+                object-fit: cover;
+                width: 100%;
+
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+
+    .modal-talent__close_button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        width: 50px;
+        height: 50px;
+
+        ion-icon{
+
+            font-size: 50px;
+
+        }
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    
+    .modal-talent{
+
+        .modal-talent__content{
+
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+
+        }
+
+        .modal-talent__infos{
+
+            .modal-talent__infos-name{
+
+                font-size: 35px;
+
+            }
+
+            .modal-talent__infos-title{
+
+                font-size: 25px;
+
+            }
+
+        }
+
+
+
+
+
+        .modal-talent__close_button{
+
+            top: 10px;
+            right: 15px;
+
+        }
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+    .modal-talent{
+
+        .modal-talent__content{
+
+            height: auto;
+            min-height: 100vh;
+            padding-bottom: 25px;
+            overflow-y: scroll;
+
+        }
+
+
+        .modal-talent__first-part{
+
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .modal-talent__infos{
+
+            align-items: center;
+
+        }
+
+
+
+
+
+        .modal-talent__close_button{
+
+            top: 10px;
+            right: 15px;
+
+        }
+
+    }
+
+
+}

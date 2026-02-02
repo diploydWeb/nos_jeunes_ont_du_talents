@@ -1,0 +1,43 @@
+@use"../abstract/variables" as variable;
+
+.footer{
+
+    background-color: variable.$black;
+
+}
+
+.footer__container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.footer__logo-content{
+
+    width: 200px;
+
+    img{
+
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+}
+
+.footer__text-content{
+
+    p{
+
+        color: variable.$white;
+
+    }
+
+}

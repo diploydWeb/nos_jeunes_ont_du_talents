@@ -1,0 +1,69 @@
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Roboto', sans-serif; /* ou ta police principale */
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Lists */
+ul, ol {
+  list-style: none;
+}
+
+/* Images */
+img, picture, video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Forms */
+input, button, textarea, select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Global utility */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional : fix for common HTML5 elements */
+main {
+  display: block;
+}
+
