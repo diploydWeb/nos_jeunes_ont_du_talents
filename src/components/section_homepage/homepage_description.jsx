@@ -20,7 +20,7 @@ function Description() {
 
                     <div className="description-section__infos">
 
-                        <p>Le <strong>11 Février</strong> à <strong>13h</strong></p>
+                        <p>Le <strong>11 Février</strong> de <strong>13h</strong> à <strong>19h</strong></p>
                         
                         <p>Au <strong>66 rue des Chantiers de France, 59140 Dunkerque</strong>.</p>
 
@@ -35,15 +35,29 @@ function Description() {
                 
                 </div>
 
-            <div className="description-section__all-partenaire"> 
+                <div className="description-section__all-partenaire"> 
 
-                <div className="description-section__one-partenaire">
+                    <div className="description-section__one-partenaire">
 
-                    <img src="/assets/logo-ee.jpg" alt="Nos jeunes ont du talents" />
+                        <img src="/assets/logo-ee.jpg" alt="Entreprendre Ensemble" />
+
+                    </div>
+                        
+                    <div className="description-section__one-partenaire">
+
+                        <img src="/assets/logo-gc.jpg" alt="Groupement créateur" />
+
+                    </div>
 
                 </div>
 
-            </div>
+                <div className="description-section__partenaires-ee">
+
+                    <img src="/assets/bandeau-ee.jpg" alt="Partenaire Entreprendre Ensemble" />
+
+                </div>
+
+                
 
 
             </div>

@@ -18,6 +18,9 @@ function Hero() {
 
             <div className="hero-section__img-div">
 
+
+                
+
                 <img src="/assets/logo-event.png" alt="Nos jeunes ont du talents" />
 
             </div>
