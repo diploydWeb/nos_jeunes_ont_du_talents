@@ -1,13 +1,11 @@
 import { NavLink } from "react-router"
 import Navbar from "../components/Navbar"
-import { useEffect, useState } from "react"
-import { useLocation } from "react-router-dom";
 
 
 
 function Header() {
     
-    const location = useLocation();
+    /*const location = useLocation();
 
     const [lastScroll, setLastScroll] = useState(0);
 
@@ -50,7 +48,7 @@ function Header() {
         setLastScroll(currentScrollY)
     })
 
-
+    */
 
     return (
         

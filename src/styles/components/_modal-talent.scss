@@ -51,6 +51,7 @@
         transform: scale(0);
         position: relative;
 
+        overflow-y: scroll;
         width: 90%;
         height: 90%;
         background-color: rgba($color: white, $alpha: 1);

@@ -161,7 +161,43 @@ const talentData = [
                 link: "https://www.instagram.com/anna_1eredauphinemnf2026?igsh=MTc4bmU1aHAxMTV5Zg=="
             }
         }
-    } 
+    },
+    {
+        id: 12,
+        prenom: "Anton",
+        nom: "Malaüs",
+        avatar: "talent_Anton_Malaus.jpeg",
+        titre: "Producteur de musique",
+        bio: "La musique est au cœur de mon quotidien et de ma démarche artistique.\n\nIngénieur du son et producteur de musique, je travaille et compose principalement en studio où j’ai participé à la production de nombreux projets et albums aux esthétiques variées. Ces différents projets nourrissent ma curiosité, mon approche du son et ma passion pour la musique au quotidien. \n\nEntre projets personnels et travail collectif, notamment au sein du groupe de rap Chéri. Je compose et produis beaucoup de musique, avec une attention particulière portée à l’identité sonore.\n\nEn parallèle, je m’implique dans l’organisation de concerts et de projets live, et je développe aussi un travail autour de la vidéo et de l’image avec l’envie de créer des univers cohérents où son et image se répondent",
+        social: {
+            soundcloud: {
+                pseudo: "Anton",
+                link: "https://on.soundcloud.com/tTVserupSHFbbeND96"
+            },
+            insta: {
+                pseudo: "ant0nada",
+                link: "https://www.instagram.com/ant0nada?igsh=dTFka2FsOGluYnU4&utm_source=qr"
+            }
+        }
+    },
+    {
+        id: 13,
+        prenom: "Clemence",
+        nom: "",
+        avatar: "talent_Clemence.jpeg",
+        titre: "Mannequin",
+        bio: "Passionnée par l’univers de la mode et de l’image, je souhaite aujourd’hui mettre à profit mon sérieux, ma motivation et mon aisance relationnelle.\n\nÀ l’aise devant la caméra, ponctuelle et ouverte à différents styles et collaborations, j’aspire à évoluer en tant que mannequin et à être recrutée par une agence de mannequins.",
+        /*social: {
+            soundcloud: {
+                pseudo: "Anton",
+                link: "https://on.soundcloud.com/tTVserupSHFbbeND96"
+            },
+            insta: {
+                pseudo: "ant0nada",
+                link: "https://www.instagram.com/ant0nada?igsh=dTFka2FsOGluYnU4&utm_source=qr"
+            }
+        }*/
+    }
 
 
 

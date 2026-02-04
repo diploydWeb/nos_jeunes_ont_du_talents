@@ -171,6 +171,7 @@ main {
 .modal-talent .modal-talent__content {
   transform: scale(0);
   position: relative;
+  overflow-y: scroll;
   width: 90%;
   height: 90%;
   background-color: white;
@@ -649,7 +650,10 @@ main {
 }
 
 @media screen and (max-width: 1300px) {
-  header .header__img-div {
+  .header {
+    height: 100px;
+  }
+  .header .header__img-div {
     margin: auto;
   }
 }
@@ -702,4 +706,10 @@ main {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .talents-page {
+    padding-top: 130px;
+  }
 }/*# sourceMappingURL=main.css.map */

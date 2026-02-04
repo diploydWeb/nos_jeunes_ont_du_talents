@@ -128,6 +128,19 @@ function ModalTalent(props) {
                             )
                         }
 
+                        {
+                            infos.social?.soundcloud && ( 
+
+                                <a href={infos.social.soundcloud.link} target="_blank" rel="noopener noreferrer" className="modal-talent__social">
+
+                                    <ion-icon name="logo-soundcloud"></ion-icon>
+                                    <p>{infos.social.soundcloud.pseudo}</p>
+                                </a>
+                            
+                            )
+                        }
+
+
 
 
                     </div>
