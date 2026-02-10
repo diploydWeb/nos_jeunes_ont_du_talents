@@ -54,7 +54,7 @@ function Header() {
         
         <header id="main-header" className="header active">
 
-            <NavLink to="/" className="header__img-div" >
+            <NavLink to="/" className="header__img-div" onClick={() => window.scrollTo(0, 0)} >
                 <img src="/assets/logo-event.png" alt="Nos jeunes ont du talents" />
             </NavLink>
 

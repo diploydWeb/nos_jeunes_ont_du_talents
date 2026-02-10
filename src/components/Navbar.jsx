@@ -6,13 +6,17 @@ function Navbar() {
         const [showNavbar, setShowNavbar] = useState(false)
         const handleShowNavbar = () => {
             setShowNavbar(!showNavbar)
+            window.scrollTo(0, 0)
         }
     return (
         <div>
             <div className="nav-elements">
                 <ul className='list_nav'>
                     <li>
-                        <NavLink to="/talents">Les Talents</NavLink>
+                        <NavLink to="/talents" onClick={() => window.scrollTo(0, 0)}>Talents</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/programme" onClick={() => window.scrollTo(0, 0)}>Programme</NavLink>
                     </li>
                 </ul>
                 <button aria-label='Open Nav' className='hamburger' onClick={handleShowNavbar}>
@@ -22,6 +26,9 @@ function Navbar() {
                     <ul className='list_nav_mobile'>
                         <li>
                             <NavLink to="/talents" onClick={handleShowNavbar}>Les Talents</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/programme" onClick={handleShowNavbar}>Programme</NavLink>
                         </li>
                     </ul>
                     <button aria-label="Close nav" className='close_outline' onClick={handleShowNavbar}>

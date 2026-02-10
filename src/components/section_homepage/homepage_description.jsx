@@ -1,3 +1,7 @@
+import { NavLink } from "react-router"
+
+
+
 function Description() {
     
 
@@ -31,11 +35,17 @@ function Description() {
                     <p>Organiser par La PIJ et le groupement créateurs de Entreprendre Ensemble.</p>
                 
                 
-                    <a href="#description-section">Découvrez les talents</a>
+                    <NavLink to="/talents"  onClick={() => window.scrollTo(0, 0)}>Découvrez les talents</NavLink>
                 
                 </div>
 
                 <div className="description-section__all-partenaire"> 
+
+                    <div className="description-section__one-partenaire">
+                        <img src="/assets/logo-pij.jpg" alt="pij" />
+                    </div>
+                    
+
 
                     <div className="description-section__one-partenaire">
 
@@ -48,6 +58,9 @@ function Description() {
                         <img src="/assets/logo-gc.jpg" alt="Groupement créateur" />
 
                     </div>
+
+
+
 
                 </div>
 

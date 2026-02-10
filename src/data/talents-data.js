@@ -5,10 +5,16 @@ const talentData = [
         prenom: "Jonathan",
         nom: "Fredryck",
         avatar: "talent_Jonathan_Fredryck.jpg",
-        titre: "Créateur de site web (Le Goat)",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur elit lobortis nibh consectetur tempus. Mauris maximus semper nunc, vel accumsan magna imperdiet eget.",
+        titre: "Créateur de site web",
+        bio: "Je suis Jonathan Fredryck, développeur web passionné basé à Dunkerque.\n\nJ’aime créer des sites internet et voir les idées prendre vie étape par étape, chercher des solutions, améliorer les détails et construire des projets utiles.",
         aime: "Créer concevoir, pensée",
         savoir: "",
+        social: {
+            insta: {
+                pseudo: "Diployd_officiel",
+                link: "https://www.instagram.com/diployd_officiel/"
+            }
+        }
     },
     {
         id: 2,

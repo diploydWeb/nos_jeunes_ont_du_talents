@@ -106,14 +106,23 @@
 
 
             max-width: 300px;
+            height: 150px;
             overflow: hidden;
             border-radius: 20px;
+            background-color: white;
 
             img{
 
                 width: 100%;
-                object-fit: cover;
+                height: 100%;
+                object-fit: contain;
 
+
+            }
+
+            &:first-child{
+
+                margin-left: 100px;
 
             }
 
@@ -195,6 +204,12 @@
 
                     }
 
+                    &:first-child{
+
+                        margin-left: 0px;
+
+                    }
+
                     &:last-child{
 
                         margin-left: 0px;
@@ -202,6 +217,13 @@
                     }
 
                 }
+
+            }
+
+            .description-section__partenaires-ee{
+
+                height: auto;
+
 
             }
 

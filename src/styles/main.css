@@ -585,13 +585,19 @@ main {
 }
 .description-section .description-section__all-partenaire .description-section__one-partenaire {
   max-width: 300px;
+  height: 150px;
   overflow: hidden;
   border-radius: 20px;
+  background-color: white;
 }
 .description-section .description-section__all-partenaire .description-section__one-partenaire img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.description-section .description-section__all-partenaire .description-section__one-partenaire:first-child {
+  margin-left: 100px;
 }
 .description-section .description-section__all-partenaire .description-section__one-partenaire:last-child {
   margin-left: 100px;
@@ -635,8 +641,14 @@ main {
     -o-object-fit: contain;
        object-fit: contain;
   }
+  .description-section .description-section__all-partenaire .description-section__one-partenaire:first-child {
+    margin-left: 0px;
+  }
   .description-section .description-section__all-partenaire .description-section__one-partenaire:last-child {
     margin-left: 0px;
+  }
+  .description-section .description-section__partenaires-ee {
+    height: auto;
   }
 }
 @media screen and (max-width: 700px) {
@@ -759,5 +771,124 @@ main {
 @media screen and (max-width: 1300px) {
   .talents-page {
     padding-top: 130px;
+  }
+}
+.programme-page {
+  padding-top: 170px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #FF3131 0%, #FF904D 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.programme-page h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.programme-page .programme-page__gallery {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  gap: 20px;
+}
+.programme-page .programme-page__one-programme {
+  background-color: #FF3131;
+  width: 550px;
+  min-height: 115px;
+  grid-template-columns: 1fr 5fr;
+  gap: 10px;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.programme-page .programme-page__one-programme-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.programme-page .programme-page__one-programme-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.programme-page .programme-page__one-programme-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.programme-page .programme-page__one-programme-text h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.programme-page .programme-page__one-programme-text p {
+  color: white;
+}
+.programme-page .programme-page__temps-fort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+.programme-page .programme-page__temps-fort h5 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.programme-page .programme-page__temps-fort-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.programme-page .programme-page__temps-fort .programme-page__one-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.programme-page .programme-page__temps-fort .programme-page__one-content:last-child {
+  flex-direction: row-reverse;
+}
+.programme-page .programme-page__temps-fort .programme-page__one-content:last-child .programme-page__one-content-hour {
+  margin-top: 10px;
+  margin-right: -5px;
+  z-index: 100;
+}
+.programme-page .programme-page__temps-fort .programme-page__one-content .programme-page__one-content-title {
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FF3131;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+.programme-page .programme-page__temps-fort .programme-page__one-content .programme-page__one-content-hour {
+  font-size: 30px;
+  font-weight: 800;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 60px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+@media screen and (max-width: 900px) {
+  .programme-page .programme-page__gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .programme-page .programme-page__gallery {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=main.css.map */

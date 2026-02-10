@@ -5,6 +5,7 @@ import ErrorPage from './pages/ErrorPage';
 import TalentsPage from './pages/TalentsPage';
 //import MapPage form '';
 //import TimelinePage form '';
+import ProgrammePage from './pages/ProgrammePage';
 
 import Header from './layouts/Header';
 import Footer from './layouts/Footer';
@@ -17,9 +18,10 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-              <Route path="/talents" element={<TalentsPage/>} />
-              <Route path="/" element={<HomePage/>} />
-              <Route path="*" element={<ErrorPage/>} />
+            <Route path="/programme" element={<ProgrammePage/>} />
+            <Route path="/talents" element={<TalentsPage/>} />
+            <Route path="/" element={<HomePage/>} />
+            <Route path="*" element={<ErrorPage/>} />
         </Routes>
         <Footer/>
       </Router>
