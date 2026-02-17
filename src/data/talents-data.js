@@ -228,7 +228,7 @@ const talentData = [
         nom: "",
         avatar: "talent_Stellie.jpg",
         titre: "Mannequin",
-        bio: "Je suis Stellie, j'ai 15 ans et demi, je suis en 3eme au collège Boris Vian, j'aimerai travailler soit avec les enfants ou esthéticienne, j'aimerais bien essayer de faire des défilés ça m'a beaucoup amusé",
+        bio: "Stellie, 15 ans et demi, actuellement en classe de 3ᵉ au collège Boris Vian.\n\nJe souhaiterais travailler plus tard soit auprès des enfants, soit dans le domaine de l’esthétique.\n\nJ’aimerais également tenter l’expérience des défilés, car cela m’a beaucoup amusée et intéressée.",
         /*social: {
             mail: {
                 pseudo: "kissenberger.lucie@gmail.com",
