@@ -48,7 +48,7 @@ const talentData = [
         nom: "Belkadi",
         avatar: "talent_Tammy_Belkadi.png ",
         titre: "Auteur",
-        bio: "Sur les finitions concernant un premier recueil de poèmes intitulé : Sanatorium \n\nÀ la journée des talents, il sera question pour moi d'animer une lecture publique sur la base de plusieurs écrits issus de Sanatorium. \n\nL'écriture repréxsente énormement pour ma personne, ainsi que la langue française. \n\nConsidérant que notre langue est la plus belle au monde, j'y mets du mien, pour lui faire le plus honneur possible. \n\nÀ l'avenir, je souhaite fonder ma propre maison d'édition, et y publier Sanatorium",
+        bio: "Sur les finitions concernant un premier recueil de poèmes intitulé : Sanatorium \n\nÀ la journée des talents, il sera question pour moi d'animer une lecture publique sur la base de plusieurs écrits issus de Sanatorium. \n\nL'écriture représente énormement pour ma personne, ainsi que la langue française. \n\nConsidérant que notre langue est la plus belle au monde, j'y mets du mien, pour lui faire le plus honneur possible. \n\nÀ l'avenir, je souhaite fonder ma propre maison d'édition, et y publier Sanatorium",
         aime: "",
         savoir: "",
     },
@@ -201,6 +201,42 @@ const talentData = [
             insta: {
                 pseudo: "ant0nada",
                 link: "https://www.instagram.com/ant0nada?igsh=dTFka2FsOGluYnU4&utm_source=qr"
+            }
+        }*/
+    },
+    {
+        id: 14,
+        prenom: "Lucie",
+        nom: "",
+        avatar: "talent_Lucie_maquilleuse.jpg",
+        titre: "Maquilleuse",
+        bio: "Je m'appelle Lucie j'ai 19 ans et je suis maquilleuse professionnelle formée au sein de Acte Académie Lille au maquillage mode, beauté et effets spéciaux.\n\nMes projets principaux seraient de potentiellement me mettre à mon compte et de proposer mes services lors de shootings, défilés et en finalité j'aimerais travailler sur les tournages de cinéma ! \n\nJ'ai eu de nombreuses expériences de stage professionnels durant ma formation et un emploi à durée déterminée en tant que maquilleuse effets spéciaux à Walibi durant leur célèbre événement d'Halloween \"Ibilaw\" 2025.\n\nConcernant l'événement du défilé \"Entreprendre Ensemble\" du 11 février, mon rôle principal à été d'assurer le maquillage et la mise en beauté des mannequins du défilé.\n\nTout en étant en accord avec l'ensemble de la direction artistique de Lucie et de sa collection de vêtements exposés.\n\nJ'ai passé un excellent moment avec l'ensemble des bénévoles et des personnes présentes à l'événement et encore merci de m'avoir permis de représenter le métier du maquillage encore aujourd'hui trop souvent invisibilisé !\n\nVous pouvez me retrouver sur mon compte Instagram professionnel @lu_muart et mon contact par e-mail kissenberger.lucie@gmail.com\n\n\nBonne journée !",
+        social: {
+            mail: {
+                pseudo: "kissenberger.lucie@gmail.com",
+                link: "mailto:kissenberger.lucie@gmail.com"
+            },
+            insta: {
+                pseudo: "@lu_muart",
+                link: "https://www.instagram.com/lu_muart"
+            }
+        }
+    },
+    {
+        id: 15,
+        prenom: "Stellie",
+        nom: "",
+        avatar: "talent_Stellie.jpg",
+        titre: "Mannequin",
+        bio: "Je suis Stellie, j'ai 15 ans et demi, je suis en 3eme au collège Boris Vian, j'aimerai travailler soit avec les enfants ou esthéticienne, j'aimerais bien essayer de faire des défilés ça m'a beaucoup amusé",
+        /*social: {
+            mail: {
+                pseudo: "kissenberger.lucie@gmail.com",
+                link: "mailto:kissenberger.lucie@gmail.com"
+            },
+            insta: {
+                pseudo: "@lu_muart",
+                link: "https://www.instagram.com/lu_muart"
             }
         }*/
     }

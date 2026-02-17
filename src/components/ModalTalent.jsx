@@ -140,6 +140,18 @@ function ModalTalent(props) {
                             )
                         }
 
+                        {
+                            infos.social?.mail && ( 
+
+                                <a href={infos.social.mail.link} target="_blank" rel="noopener noreferrer" className="modal-talent__social">
+
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                    <p>{infos.social.mail.pseudo}</p>
+                                </a>
+                            
+                            )
+                        }
+
 
 
 
