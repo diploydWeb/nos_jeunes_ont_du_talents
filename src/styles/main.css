@@ -857,10 +857,10 @@ main {
   align-items: center;
   justify-content: center;
 }
-.programme-page .programme-page__temps-fort .programme-page__one-content:last-child {
+.programme-page .programme-page__temps-fort .programme-page__one-content:nth-child(even) {
   flex-direction: row-reverse;
 }
-.programme-page .programme-page__temps-fort .programme-page__one-content:last-child .programme-page__one-content-hour {
+.programme-page .programme-page__temps-fort .programme-page__one-content:nth-child(even) .programme-page__one-content-hour {
   margin-top: 10px;
   margin-right: -5px;
   z-index: 100;

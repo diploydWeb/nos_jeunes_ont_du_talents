@@ -50,15 +50,22 @@ function ProgrammePage() {
 
                     <div className="programme-page__one-content">
 
-                        <p className="programme-page__one-content-title">Défilé Collection de Lucie</p>
-                        <p className="programme-page__one-content-hour">17h</p>
+                        <p className="programme-page__one-content-title">DJ Set</p>
+                        <p className="programme-page__one-content-hour">15h / 18h</p>
 
                     </div>
 
                     <div className="programme-page__one-content">
 
-                        <p className="programme-page__one-content-title">Concert de Xanne</p>
-                        <p className="programme-page__one-content-hour">17h30</p>
+                        <p className="programme-page__one-content-title">Défilé Phlem Studio</p>
+                        <p className="programme-page__one-content-hour">18h</p>
+
+                    </div>
+
+                    <div className="programme-page__one-content">
+
+                        <p className="programme-page__one-content-title">Concert Chéri</p>
+                        <p className="programme-page__one-content-hour">18h30</p>
 
                     </div>
                     

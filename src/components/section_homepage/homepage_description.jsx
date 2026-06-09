@@ -24,7 +24,7 @@ function Description() {
 
                     <div className="description-section__infos">
 
-                        <p>Le <strong>11 Février</strong> de <strong>13h</strong> à <strong>19h</strong></p>
+                        <p>Le <strong>10 Juin</strong> de <strong>15h</strong> à <strong>20h</strong></p>
                         
                         <p>Au <strong>66 rue des Chantiers de France, 59140 Dunkerque</strong>.</p>
 
@@ -35,7 +35,7 @@ function Description() {
                     <p>Organiser par La PIJ et le groupement créateurs de Entreprendre Ensemble.</p>
                 
                 
-                    <NavLink to="/talents"  onClick={() => window.scrollTo(0, 0)}>Découvrez les talents</NavLink>
+                    <NavLink to="/talents2"  onClick={() => window.scrollTo(0, 0)}>Découvrez les talents</NavLink>
                 
                 </div>
 

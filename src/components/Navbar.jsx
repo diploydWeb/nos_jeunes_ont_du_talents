@@ -13,7 +13,10 @@ function Navbar() {
             <div className="nav-elements">
                 <ul className='list_nav'>
                     <li>
-                        <NavLink to="/talents" onClick={() => window.scrollTo(0, 0)}>Talents</NavLink>
+                        <NavLink to="/talents1" onClick={() => window.scrollTo(0, 0)}>Talents 1ere édition</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/talents2" onClick={() => window.scrollTo(0, 0)}>Talents 2eme édition</NavLink>
                     </li>
                     <li>
                         <NavLink to="/programme" onClick={() => window.scrollTo(0, 0)}>Programme</NavLink>
