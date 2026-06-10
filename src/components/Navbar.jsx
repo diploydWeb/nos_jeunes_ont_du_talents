@@ -28,7 +28,10 @@ function Navbar() {
                 <div className={`nav_mobil_elements ${showNavbar && 'active'}`} >
                     <ul className='list_nav_mobile'>
                         <li>
-                            <NavLink to="/talents" onClick={handleShowNavbar}>Les Talents</NavLink>
+                            <NavLink to="/talents1" onClick={handleShowNavbar}>Les Talents 1ere édition</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/talents2" onClick={handleShowNavbar}>Les Talents 2eme édition</NavLink>
                         </li>
                         <li>
                             <NavLink to="/programme" onClick={handleShowNavbar}>Programme</NavLink>
