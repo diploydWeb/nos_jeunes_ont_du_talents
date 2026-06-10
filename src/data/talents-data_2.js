@@ -49,13 +49,7 @@ const talentData = [
         avatar: "talent_2_josephine.jpg",
         titre: "Photographe",
         bio: "Tie & Die est un concept-store immersif et satirique imaginé par l'entreprise Wheldow World. D'inspiration japonaise, cette marque utilise l'humour noir et le second degré pour interroger les dérives de la consommation moderne et la survalorisation de l’esthétique au détriment de l'utilité.",
-        social: {
-            insta: {
-                pseudo: "@lucie_rots",
-                link: "https://www.instagram.com/lucie_rots"
-            },
-
-        }
+        
     
     },
     {
@@ -65,16 +59,6 @@ const talentData = [
         avatar: "talent_2_stacy.png",
         titre: "Accessoires canins",
         bio: "Plongez dans l’univers d’OLMI Collection : créations canines, croquis exclusifs, présentation du projet entrepreneurial et défilé de Milo sur le podium lors du défilé !\n\nJe m’appelle Stacy, j’ai 20 ans et je suis créatrice d’accessoires canins.Je conçois des accessoires de promenade et de mode, pensés pour allier le confort du chien à son esthétique. Chaque création est adaptée à sa morphologie afin de lui offrir un maximum de bien-être, tout en mettant en valeur son style. Mes collections vont de modèles simples et élégants à des créations plus sophistiquées ornées de bijoux.\n\nAujourd’hui, je suis en pleine démarche de création de mon entreprise, OLMI Collection.\n\nCette aventure a commencé lorsque j’ai adopté mon Berger Américain, Milo. Je me suis rapidement rendu compte du manque d’accessoires adaptés à sa morphologie, mais aussi à mes goûts en matière de design et de qualité. J’ai alors décidé de créer moi-même des accessoires à la fois confortables, esthétiques et uniques, afin de répondre aux besoins des chiens et aux attentes de leurs propriétaires.",
-        social: {
-            insta: {
-                pseudo: "Laroslaw_",
-                link: "https://www.instagram.com/laroslaw_?igsh=aTMzemM1aWw2ZzVj"
-            },
-            facebook: {
-                pseudo: "Laroslaw Shooting",
-                link: "https://www.facebook.com/share/14UaK2DJjQ1/"
-            }
-        }
     
     },
     {
